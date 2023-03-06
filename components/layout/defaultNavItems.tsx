@@ -25,7 +25,7 @@ export const defaultNavItems: NavItem[] = [
   },
   {
     label: "Calendar",
-    href: "/calendar",
+    href: "/calender",
     icon: <CalendarIcon className="w-6 h-6" />,
   },
 ];
