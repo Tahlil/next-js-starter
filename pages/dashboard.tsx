@@ -2,13 +2,13 @@ import { NextPage } from "next";
 import React from "react";
 import Layout from "components/layout/Layout";
 
-const ProjectPage: NextPage = () => {
+const HomePage: NextPage = () => {
   return (
     <Layout>
     <div className="container">
       <div className="grid place-content-center min-h-screen">
         <div className="flex flex-col items-center gap-4">
-          <h1 className="text-4xl my-8">Porjects</h1>
+          <h1 className="text-4xl my-8">Welcome to Talwind Sidebar Tutorial</h1>
         </div>
       </div>
     </div>
@@ -16,4 +16,4 @@ const ProjectPage: NextPage = () => {
   );
 };
 
-export default ProjectPage;
+export default HomePage;

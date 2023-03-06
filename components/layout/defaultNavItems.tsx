@@ -10,7 +10,7 @@ import { NavItem } from "./Sidebar";
 export const defaultNavItems: NavItem[] = [
   {
     label: "Dashboard",
-    href: "/",
+    href: "/dashboard",
     icon: <HomeIcon className="w-6 h-6" />,
   },
   {
